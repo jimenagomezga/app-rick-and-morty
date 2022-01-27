@@ -1,0 +1,31 @@
+.contentFooter {
+  display: flex;
+  padding: 70px;
+  width: 100%;
+  background-color: #57b7bd;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contentFooter h1 {
+  font-size: 25px;
+  font-family: "Righteous", monospace;
+  color: #ffffff;
+}
+
+.contentIcons {
+  width: 100px;
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 500px) {
+  .contentFooter {
+    display: flex;
+    padding: 33px;
+    background-color: #57b7bd;
+    flex-direction: column;
+    align-items: center;
+  }
+}

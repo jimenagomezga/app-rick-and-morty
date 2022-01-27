@@ -1,0 +1,53 @@
+.contencEpisodes {
+  background-color: #5a215e;
+  width: 100%;
+  display: flex;
+  padding-top: 50px;
+  flex-direction: column;
+  align-content: stretch;
+  align-items: center;
+}
+
+.contentSearch {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.contentEpisodes {
+  display: flex;
+  width: 100%;
+  padding-top: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.episodes {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.displayEpisodes {
+  width: 442px;
+  height: 396px;
+  background-color: #57b7bd;
+  padding-top: 8px;
+}
+
+.contentTitleE {
+  background-color: #57b7bd;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 442px;
+  height: 137px;
+  font-family: "Righteous", monospace;
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.displayEpisodes img {
+  width: 427px;
+    height: 401px;
+}

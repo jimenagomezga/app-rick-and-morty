@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Poppins:wght@600;700;800&family=Righteous&family=Roboto:ital,wght@1,300&family=Space+Grotesk:wght@700&display=swap");
+
+
+
+.contentTitle {
+  background-color: #5a215e;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 114px;
+  padding-right: 114px;
+}
+
+.contentTitle img {
+  width: 100%;
+  display: block;
+  margin: auto;
+}
