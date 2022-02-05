@@ -4,7 +4,7 @@ import "../styles/Body.css";
 import imgBody from "../images/Rick-and-Morty_S4-box-art-2020-featured.jpeg";
 import imgCategory1 from "../images/rick-and-morty-1604562846.jpeg";
 import imgCategory2 from "../images/rickmorty_1200x800.jpeg";
-//import Characters from "../componets/Characters";
+
 
 export default function Body() {
   return (

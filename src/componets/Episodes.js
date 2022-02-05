@@ -22,8 +22,6 @@ export default function Episodes() {
   if (loading) return "Loading...";
   if (error) return `Error! ${error.message}`;
 
-  console.log(data.episodes.results);
-
   return (
     <div className="contencEpisodes">
       <div>
@@ -32,14 +30,13 @@ export default function Episodes() {
       <div className="contentEpisodes">
         {data.episodes.results.map((episode) => {
           return (
-            <div className="episodes">
+            <div className="episodes" key={episode.id}>
               <div className="displayEpisodes">
-              <img src={imageEpisodes} alt="imageEpisodes" />
+                <img src={imageEpisodes} alt="imageEpisodes" />
               </div>
-              
+
               <div className="contentTitleE">
-                
-                <h2 key={episode.id}>Episode: {episode.episode}</h2>
+                <h2>Episode:{episode.episode}</h2>
                 <h1>{episode.name}</h1>
               </div>
             </div>
