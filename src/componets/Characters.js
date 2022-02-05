@@ -28,7 +28,7 @@ function Characters() {
         .includes(e.target.value.toUpperCase());
     });
     setFilteredCharacter(listaFiltrada);
-    //console.log(listaFiltrada);
+    
   };
 
   const { loading, error } = useQuery(GET_CHARACTES_LIST, {
@@ -40,7 +40,7 @@ function Characters() {
 
   if (loading) return "Loading...";
   if (error) return `Error! ${error.message}`;
-  //console.log(data.characters.results);
+  
 
   return (
     <div className="contencCharacters">
