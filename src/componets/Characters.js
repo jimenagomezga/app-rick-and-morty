@@ -5,7 +5,7 @@ import { gql, useQuery } from "@apollo/client";
 
 const GET_CHARACTES_LIST = gql`
   query getCharactesList {
-    characters {
+    characters(page: 2, filter: { name: "rick" }) {
       results {
         id
         name
@@ -28,7 +28,6 @@ function Characters() {
         .includes(e.target.value.toUpperCase());
     });
     setFilteredCharacter(listaFiltrada);
-    
   };
 
   const { loading, error } = useQuery(GET_CHARACTES_LIST, {
@@ -40,7 +39,6 @@ function Characters() {
 
   if (loading) return "Loading...";
   if (error) return `Error! ${error.message}`;
-  
 
   return (
     <div className="contencCharacters">

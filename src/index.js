@@ -8,7 +8,6 @@ import {
   ApolloClient,
   InMemoryCache,
   ApolloProvider,
-  
   gql,
 } from "@apollo/client";
 
@@ -20,9 +19,13 @@ const client = new ApolloClient({
 client
   .query({
     query: gql`
-      query GetRates {
-        rates(currency: "USD") {
-          currency
+      query getCharactesList {
+        characters(page: 2, filter: { name: "rick" }) {
+          results {
+            id
+            name
+            image
+          }
         }
       }
     `,
