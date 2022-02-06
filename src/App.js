@@ -11,9 +11,13 @@ function App() {
     <div className="App">
       <NavBar />
       <Routes>
-        <Route path="/" exact element={<Home />} />
+        <Route index element={<Home />} />
         <Route path="/characters" exact element={<Characters />} />
         <Route path="/episodes" exact element={<Episodes />} />
+        <Route
+          path={process.env.PUBLIC_URL + "/episodes"}
+          component={<Episodes />}
+        />
       </Routes>
     </div>
   );

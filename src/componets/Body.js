@@ -5,7 +5,6 @@ import imgBody from "../images/Rick-and-Morty_S4-box-art-2020-featured.jpeg";
 import imgCategory1 from "../images/rick-and-morty-1604562846.jpeg";
 import imgCategory2 from "../images/rickmorty_1200x800.jpeg";
 
-
 export default function Body() {
   return (
     <div className="contentBody">
@@ -24,7 +23,7 @@ export default function Body() {
           <button>CHARACTERS</button>
         </Link>
         <Link to="/episodes">
-        <button>EPISODES</button>
+          <button>EPISODES</button>
         </Link>
       </div>
     </div>
