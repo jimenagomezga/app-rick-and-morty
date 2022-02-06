@@ -57,9 +57,9 @@ function Characters() {
       <div className="contentImages">
         {filteredCharacter.map((character) => {
           return (
-            <div className="images">
+            <div key={character.id} className="images">
               <img src={character.image} alt="imag" />
-              <h1 key={character.id}> {character.name.toUpperCase()}</h1>
+              <h1> {character.name.toUpperCase()}</h1>
             </div>
           );
         })}
