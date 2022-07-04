@@ -9,7 +9,6 @@ import "../src/styles/App.css";
 function App() {
   return (
     <div className="App">
-      <NavBar />
       <Routes>
         <Route index element={<Home />} />
         <Route path="/characters" exact element={<Characters />} />
