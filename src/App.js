@@ -1,6 +1,5 @@
 import React from "react";
 import { Routes, Route } from "react-router";
-import NavBar from "../src/componets/NavBar";
 import Home from "../src/componets/Home";
 import Characters from "../src/componets/Characters";
 import Episodes from "../src/componets/Episodes";
