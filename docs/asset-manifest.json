@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/app-rick-and-morty/static/css/main.c6caaf3e.css",
+    "main.js": "/app-rick-and-morty/static/js/main.3f4aa8f8.js",
+    "static/js/787.a90f46fa.chunk.js": "/app-rick-and-morty/static/js/787.a90f46fa.chunk.js",
+    "static/media/Rick-and-Morty_S4-box-art-2020-featured.jpeg": "/app-rick-and-morty/static/media/Rick-and-Morty_S4-box-art-2020-featured.d249d842bde9f774c5b8.jpeg",
+    "static/media/rickmorty_1200x800.jpeg": "/app-rick-and-morty/static/media/rickmorty_1200x800.7bc0449ede602f55a67b.jpeg",
+    "static/media/Rick_and_Morty_-_logo_(English).png": "/app-rick-and-morty/static/media/Rick_and_Morty_-_logo_(English).de13d48466d780cbf10c.png",
+    "static/media/rick-morty-temporada2.jpeg": "/app-rick-and-morty/static/media/rick-morty-temporada2.a0172b9e55d632ce04eb.jpeg",
+    "static/media/png": "/app-rick-and-morty/static/media/2e1f6deee20d0445d9a656151d1cde4b.f9e9e1224263fe266b04.png",
+    "static/media/rick-and-morty-1604562846.jpeg": "/app-rick-and-morty/static/media/rick-and-morty-1604562846.e2025ddeeec204314679.jpeg",
+    "static/media/icon-instagram.svg": "/app-rick-and-morty/static/media/icon-instagram.df5873287e1c06a0fe74440f6ccd8394.svg",
+    "index.html": "/app-rick-and-morty/index.html",
+    "static/media/icon-twitter.svg": "/app-rick-and-morty/static/media/icon-twitter.1d5c6d5e6ab1717a500af2df0a87959a.svg",
+    "static/media/icon-facebook.svg": "/app-rick-and-morty/static/media/icon-facebook.229c75a01827343aef31ae916e2ec18a.svg",
+    "main.c6caaf3e.css.map": "/app-rick-and-morty/static/css/main.c6caaf3e.css.map",
+    "main.3f4aa8f8.js.map": "/app-rick-and-morty/static/js/main.3f4aa8f8.js.map",
+    "787.a90f46fa.chunk.js.map": "/app-rick-and-morty/static/js/787.a90f46fa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6caaf3e.css",
+    "static/js/main.3f4aa8f8.js"
+  ]
+}
